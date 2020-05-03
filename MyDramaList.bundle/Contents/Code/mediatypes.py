@@ -1,0 +1,3 @@
+MEDIA_TYPE_DRAMA = "Drama"
+MEDIA_TYPE_MOVIE = "Movie"
+MEDIA_TYPE_SPECIAL = "Special"
