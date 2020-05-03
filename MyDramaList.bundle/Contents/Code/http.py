@@ -21,7 +21,7 @@ def mdlfetch(url, ispost):
     return JSON.ObjectFromURL(
         url,
         values={ "": "" } if ispost else None, # force POST request using `values`
-        headers={ "mdl-api-key": os.environ.get("CLIENT_ID", None) })
+        headers={ "mdl-api-key": Prefs["CLIENT_ID"] })
 
 def mdlfetchdetail(id):
     return mdlfetch(DETAIL_URL.format(id), ispost=False)
