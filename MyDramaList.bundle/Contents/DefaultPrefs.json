@@ -1,0 +1,15 @@
+[
+    {
+        "id": "CLIENT_ID",
+        "label": "API Client ID",
+        "type": "text",
+        "option": "hidden",
+        "default": ""
+    },
+    {
+        "id": "TRANSLATED_TITLES",
+        "label": "Use translated English titles instead of original native language titles",
+        "type": "bool",
+        "default": false
+    }
+]
